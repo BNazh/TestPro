@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5B124FA24F0338100B27789 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B124F924F0338100B27789 /* CustomTableViewCell.swift */; };
+		E5B124FC24F0354300B27789 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B124FB24F0354300B27789 /* HeaderView.swift */; };
+		E5B124FE24F0428100B27789 /* SeachResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B124FD24F0428100B27789 /* SeachResultsViewController.swift */; };
 		E5F10FCE24F02ADA00C2DC28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F10FCD24F02ADA00C2DC28 /* AppDelegate.swift */; };
-		E5F10FD024F02ADA00C2DC28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F10FCF24F02ADA00C2DC28 /* SceneDelegate.swift */; };
 		E5F10FD224F02ADA00C2DC28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F10FD124F02ADA00C2DC28 /* ViewController.swift */; };
-		E5F10FD524F02ADA00C2DC28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F10FD324F02ADA00C2DC28 /* Main.storyboard */; };
 		E5F10FD824F02ADA00C2DC28 /* TestPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5F10FD624F02ADA00C2DC28 /* TestPro.xcdatamodeld */; };
 		E5F10FDA24F02AE700C2DC28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5F10FD924F02AE700C2DC28 /* Assets.xcassets */; };
 		E5F10FDD24F02AE700C2DC28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F10FDB24F02AE700C2DC28 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E5B124F924F0338100B27789 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		E5B124FB24F0354300B27789 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		E5B124FD24F0428100B27789 /* SeachResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachResultsViewController.swift; sourceTree = "<group>"; };
 		E5F10FCA24F02ADA00C2DC28 /* TestPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F10FCD24F02ADA00C2DC28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E5F10FCF24F02ADA00C2DC28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5F10FD124F02ADA00C2DC28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E5F10FD424F02ADA00C2DC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E5F10FD724F02ADA00C2DC28 /* TestPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestPro.xcdatamodel; sourceTree = "<group>"; };
 		E5F10FD924F02AE700C2DC28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5F10FDC24F02AE700C2DC28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,13 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				E5F10FCD24F02ADA00C2DC28 /* AppDelegate.swift */,
-				E5F10FCF24F02ADA00C2DC28 /* SceneDelegate.swift */,
 				E5F10FD124F02ADA00C2DC28 /* ViewController.swift */,
-				E5F10FD324F02ADA00C2DC28 /* Main.storyboard */,
 				E5F10FD924F02AE700C2DC28 /* Assets.xcassets */,
 				E5F10FDB24F02AE700C2DC28 /* LaunchScreen.storyboard */,
 				E5F10FDE24F02AE700C2DC28 /* Info.plist */,
 				E5F10FD624F02ADA00C2DC28 /* TestPro.xcdatamodeld */,
+				E5B124FB24F0354300B27789 /* HeaderView.swift */,
+				E5B124F924F0338100B27789 /* CustomTableViewCell.swift */,
+				E5B124FD24F0428100B27789 /* SeachResultsViewController.swift */,
 			);
 			path = TestPro;
 			sourceTree = "<group>";
@@ -130,7 +133,6 @@
 			files = (
 				E5F10FDD24F02AE700C2DC28 /* LaunchScreen.storyboard in Resources */,
 				E5F10FDA24F02AE700C2DC28 /* Assets.xcassets in Resources */,
-				E5F10FD524F02ADA00C2DC28 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +143,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B124FE24F0428100B27789 /* SeachResultsViewController.swift in Sources */,
+				E5B124FC24F0354300B27789 /* HeaderView.swift in Sources */,
 				E5F10FD224F02ADA00C2DC28 /* ViewController.swift in Sources */,
 				E5F10FD824F02ADA00C2DC28 /* TestPro.xcdatamodeld in Sources */,
+				E5B124FA24F0338100B27789 /* CustomTableViewCell.swift in Sources */,
 				E5F10FCE24F02ADA00C2DC28 /* AppDelegate.swift in Sources */,
-				E5F10FD024F02ADA00C2DC28 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E5F10FD324F02ADA00C2DC28 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E5F10FD424F02ADA00C2DC28 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E5F10FDB24F02AE700C2DC28 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -290,6 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TestPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
